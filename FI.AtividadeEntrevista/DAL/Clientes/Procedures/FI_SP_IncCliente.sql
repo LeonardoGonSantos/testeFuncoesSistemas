@@ -7,7 +7,7 @@
     @CIDADE        VARCHAR (50) ,
     @LOGRADOURO    VARCHAR (500),
     @EMAIL         VARCHAR (2079),
-    @CPF           BIGINT,
+    @CPF           VARCHAR(14),
     @TELEFONE      VARCHAR (15)
 AS
 BEGIN

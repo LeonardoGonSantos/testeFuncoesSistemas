@@ -8,7 +8,7 @@
     @LOGRADOURO    VARCHAR (500),
     @EMAIL         VARCHAR (2079),
     @TELEFONE      VARCHAR (15),
-    @CPF           bigint,
+    @CPF           varchar(14),
 	@Id            BIGINT
 AS
 BEGIN
